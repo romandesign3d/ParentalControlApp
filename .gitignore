@@ -1,0 +1,38 @@
+# Dependency directories
+/packages/
+/node_modules/
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+
+# Rider
+.idea/
+
+# User-specific files
+*.userprefs
+*.DS_Store
+
+# Log and temporary files
+*.log
+*.tmp
+*.bak
+guardian_log.txt
+error_log.txt
+
+# Local configuration - should not be in version control
+links.txt
+
+# Update artifacts
+update.zip
+*.bat
+
+# Rider cache
+/resharper-host/

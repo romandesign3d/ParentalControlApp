@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Изменяем тип на приложение Windows, чтобы убрать окно консоли -->
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <!-- Добавляем эту строку для полной совместимости -->
+    <UseWindowsForms>true</UseWindowsForms> 
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Зависимость остается та же -->
+    <PackageReference Include="TaskScheduler" Version="2.11.0" />
+  </ItemGroup>
+
+</Project>
